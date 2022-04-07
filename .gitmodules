@@ -4,5 +4,8 @@
 [submodule "frameworks/react"]
 	path = frameworks/react
 	url = https://github.com/mikezano/micro-frontend-ui-react.git
+[submodule "frameworks/vue"]
+	path = frameworks/vue
+	url = https://github.com/mikezano/micro-frontend-ui-vue.git	
 
 
