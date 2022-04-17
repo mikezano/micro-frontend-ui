@@ -5,6 +5,7 @@
   "workspaces": [
     "container",
     "frameworks\\react",
-    "frameworks\\vue"
+    "frameworks\\vue",
+    "styles"
   ]
 }

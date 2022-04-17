@@ -1,0 +1,58 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Styles",
+      "type": "shell",
+      "command": "cd ./styles ; npm run start",
+      "presentation": {
+        "panel": "dedicated",
+        "group": "Dev"
+      },
+      "runOptions": { "runOn": "folderOpen" }
+    },
+    {
+      "label": "Run React",
+      "type": "shell",
+      "command": "cd ./frameworks/react ; npm run start",
+      "presentation": {
+        "panel": "dedicated",
+        "group": "Dev"
+      },
+      "runOptions": { "runOn": "folderOpen" }
+    },
+    {
+      "label": "Run Vue",
+      "type": "shell",
+      "command": "cd ./frameworks/vue ; npm run start",
+      "presentation": {
+        "panel": "dedicated",
+        "group": "Dev"
+      },
+      "runOptions": { "runOn": "folderOpen" }
+    },
+    {
+      "label": "Run Container",
+      "type": "shell",
+      "command": "cd ./container ; npm run start",
+      "presentation": {
+        "panel": "dedicated",
+        "group": "Dev"
+      },
+      "runOptions": { "runOn": "folderOpen" }
+    }
+  ]
+}
+
+// {
+//   "dependsOn": ["Run Styles", "Run React", "Run Vue"],
+//   "label": "Run Container",
+//   "type": "shell",
+//   "command": "cd ./container ; npm run start",
+//   "presentation": {
+//     "reveal": "always",
+//     "panel": "new",
+//     "group": "develop"
+//   },
+//   "runOptions": { "runOn": "folderOpen" }
+// }
